@@ -39,6 +39,11 @@ Dataset: https://www.kaggle.com/datasets/kyanyoga/sample-sales-data
 
 Put the CSV in `data/sales_data_sample.csv` and it should work.
 
+### Run tests to verify everything works:
+```bash
+python test_win_rate.py
+```
+
 ## Example Output
 ```
 BY DEAL SIZE
@@ -65,6 +70,7 @@ win-rate-analyzer/
 ├── data/
 │   └── sales_data_sample.csv # your data goes here
 ├── main.py                   # run this to see results
+├── test_win_rate.py          # validation tests
 └── requirements.txt
 ```
 
